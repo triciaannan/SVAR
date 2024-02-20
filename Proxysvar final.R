@@ -3,7 +3,7 @@ graphics.off()
 library(vars)
 library(patchwork)
 library(ggplot2)
-setwd("C:/Users/oktri/OneDrive/Desktop/FALL 2023/Econometrics III/Macroeconometrics")
+
 dat <- read.csv(file = "Final_R.csv")
 
 reer <- ts(log(dat$REER), start = c(1996, 1,1), freq = 4) 
